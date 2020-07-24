@@ -9,6 +9,9 @@
 
     
 }
+
+
+
 .logo{
     
     width: 40px;
@@ -63,21 +66,14 @@ font-weight: normal;
 }
 .navStyle a:hover
 {
-    border-top: 4px;
-    border-left: 4px;
-    border-bottom: 4px;
-    border-right: 4px;
-
+    
     border:solid;
-
+    border-color: ivory;
 }
 .navStyle a.active
 {
-    border-top: 6px;
-    border-left: 6px;
-    border-bottom: 6px;
-    border-right: 6px;
     border:solid;
+    border-color: ivory;
     
     
 }
