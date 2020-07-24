@@ -1,0 +1,83 @@
+.imageContainer
+{
+    background-image:url('bakery.jpg');
+
+    background-size: cover;
+    width:100%;
+    height:70%;
+    margin: auto;
+
+    
+}
+.logo{
+    
+    width: 40px;
+    height:40px;
+    
+    border-radius: 60%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    
+}
+.first
+{
+    background-color: firebrick;
+}
+
+.containerHeading{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.navHeadings{
+    margin-top: 30px;
+} 
+.overviewHeading{
+    margin-top: 30px;
+    font-size: 25px;
+    font-size: bolder;
+
+}
+.content{
+    font-size: 15px;
+margin-top: 30px;
+font-weight: bold;
+}
+.subContent{
+margin-top: 15px;
+font-weight: normal;
+}
+
+.navHeadings a:hover{
+    border-bottom:solid 3px red;
+}
+
+.navHeadings a.active{
+    border-bottom:solid 3px red;
+}
+.navStyle  a:hover{
+
+    border-bottom:solid 3px red;
+
+}
+.navStyle a:hover
+{
+    border-top: 4px;
+    border-left: 4px;
+    border-bottom: 4px;
+    border-right: 4px;
+
+    border:solid;
+
+}
+.navStyle a.active
+{
+    border-top: 6px;
+    border-left: 6px;
+    border-bottom: 6px;
+    border-right: 6px;
+    border:solid;
+    
+    
+}
