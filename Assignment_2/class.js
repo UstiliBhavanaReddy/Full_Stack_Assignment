@@ -39,33 +39,30 @@ class restaurantManager{
  printAllRestaurantNames(){
         console.log(this.name);
     }
-    filterRestaurantByCity(city)
+    filterRestaurantByCity(restaurantCity)
     {
-        if(city==this.city)
-        {
-            console.log(this.name);
-            console.log(this.address);
-            console.log(this.city);
-        }
+        
+    
+        return restaurantCity.city=="Anantapur";
     }
+        
+    
 }
      function execute() 
     {
-        console.log("list of all restaurants")
+        console.log("List of all restaurants")
         for(var i=0;i<restaurantList.length;i++)
         {
         var obj=new restaurantManager(restaurantList[i].name,restaurantList[i].address,restaurantList[i].city);
          obj.printAllRestaurantNames();
         }
-         console.log("filter according to cities")
-
+         console.log("Filtering restaurants according to cities")
+        var obj=new restaurantManager();
+        let c=restaurantList.filter(obj.filterRestaurantByCity);
+         console.log(c);
     
-    for(i=0;i<restaurantList.length;i++)
-        {
-        var obj=new restaurantManager(restaurantList[i].name,restaurantList[i].address,restaurantList[i].city);
-        obj.filterRestaurantByCity('Anantapur')
 
 
-}
+
     }
 execute();
